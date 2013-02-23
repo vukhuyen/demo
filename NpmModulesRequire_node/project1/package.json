@@ -1,0 +1,25 @@
+{
+  "name": "DemoProject",
+  "version": "0.1.0",
+  "author": "Taylor Cowan <node@microsoft.com>",
+  "description": "A simple boilerplate",
+  "contributors": [ 
+    {
+      "name": "Tayor Cowan",
+      "email": "node@microsoft.com"
+    } 
+  ],  
+  "main": "./server.js",  
+  "keywords": [
+    "azure",
+    "boilerplate"
+  ],
+  "dependencies" : {
+    "azure": "> 0.6.x"
+  },
+  "noAnalyze": true,
+  "license": "Apache",
+  "engines": {
+    "node": ">=0.6.14"
+  }
+}
