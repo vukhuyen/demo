@@ -1,0 +1,3 @@
+example file contents.
+Never use "Sync" functions, 
+these block
