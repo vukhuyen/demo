@@ -1,0 +1,15 @@
+doctype
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/styles/style/style.css')
+	body
+		h3 New Contact
+		form(id='form', method='post', action='/contact/create')
+			label(for='Name') Name
+			input(type='text', id='name', name='name')
+			label(for='Type') Type
+			input(type='text', id='type', name='type')
+			label(for='Number') Number
+			input(type='text', id='number', name='number')
+			input(type='submit', value='Add a new contact')
